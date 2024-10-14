@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: rgb(182,228,197);
+background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 89%);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */ 
+ .navbar-expand-lg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.nav-link{
+    color: rgb(75, 156, 92);
+}
+
+.navbar-brand{
+    color: rgb(75, 156, 92);
+    font-family: "Kanit", sans-serif;
+    font-size: 27px;
+
+}
+.search{
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 10px;
+    width: 130px;
+    border-right: none;
+    
+}
+.search:focus{
+    outline: none;
+    border-right: none;
+}
+.d-flex .btn{
+    border-radius: 0px 15px 15px 0px;
+    padding: 7px;
+    background-color: rgb(75, 156, 92);
+    border: none;
+}
+.nav-item a{
+    font-weight: bold;
+    margin-right: 25px;
+}
+.nav-item a:hover{
+    color: rgb(75, 156, 92);
+
+}
+
+
+/* sec-1 */
+.sec-1{
+    background: rgb(182,228,197);
+background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 89%);
+}
+
+.col1-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 100px;
+}
+
+.content1 h1{
+    font-size: 80px;
+    font-family: "Kanit", sans-serif;
+    color: rgb(10, 36, 24);
+}
+@media (max-width:1220px) {
+    .content1 h1{
+        font-size: 70px;
+    }
+}
+@media (max-width:1100px) {
+    .content1 h1{
+        font-size: 60px;
+    }
+}
+@media (max-width:970px) {
+    .content1 h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:850px) {
+    .content1 h1{
+        font-size: 42px;
+    }
+}
+@media (max-width:750px) {
+    .content1 h1{
+        font-size: 37px;
+    }
+}
+@media (max-width:685px) {
+    .content1 h1{
+        font-size: 35px;
+    }
+    .col1-1{
+        padding-left: 70px;
+    }
+    .content1 h5{
+        font-size: 15px;
+    }
+}
+@media (max-width:600px) {
+    .content1 h1{
+        font-size: 28px;
+    }
+    .col1-1{
+        padding-left: 60px;
+    }
+    .content1 h5{
+        font-size: 14px;
+    }
+}
+@media (max-width:492px) {
+    .content1 h1{
+        font-size: 25px;
+    }
+    .col1-1{
+        padding-left: 30px;
+    }
+    .content1 h5{
+        font-size: 12px;
+    }
+  
+}
+@media (max-width:400px) {
+    .content1 h1{
+        font-size: 20px;
+    }
+    .col1-1{
+        padding-left: 25px;
+    }
+    .content1 h5{
+        font-size: 11px;
+    }
+}
+
+/* section-2 */
+
+.col2{
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+    text-align: center;
+    padding: 0px 200px;
+}
+.content2 h1{
+    font-size: 75px;
+    font-family: "Kanit", sans-serif;
+    color: rbg(10, 36, 24);
+
+}
+.col2-b1{
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    color: rgb(75, 156, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col2-b1:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+}
+
+@media (max-width:1100px) {
+    .content2{
+        padding: 0px 100px;
+    }
+}
+@media (max-width:870px) {
+    .content2{
+        padding: 0px 50px;
+    }
+    .content2 h1{
+        font-size: 50px;
+    }
+    .col2{
+        height:500px;
+    }
+   
+}
+@media (max-width:600px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 40px;
+    }
+    .col2{
+        height:400px;
+    }
+    .col2-b1{
+        padding: 10px 10px;
+    }
+}
+@media (max-width:420px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height:300px;
+    }
+    .col2-b1{
+        padding: 5px 10px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+}
+@media (max-width:350px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 25px;
+    }
+    .col2{
+        height:300px;
+    }
+     .col2-b1{
+        padding: 5px 8px;
+    }
+    .col2 p{
+        font-size: 11px;
+    }
+}
+
+/* sec-3 */
+
+.row3-1{
+    text-align: center;
+    padding: 30px 0px;
+}
+.row3-2{
+   display: flex;
+   justify-content: center;
+}
+.col3-1,.col3-2,.col3-3{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    margin: 10px;
+}
+.h13{
+    font-family: "Kanit", sans-serif;
+}
+.card3{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sec-4 */
+
+.sec-4 .card{
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.sec-4 .card .card-img-top{
+    border-radius: 20px 20px 0px 0px;
+}
+ .h14{
+    font-family: "Kanit", sans-serif;
+ }
+.row4-1{
+    display: flex;
+    justify-content: center;
+}
+.content4 {
+    width: 800px;
+}
+.cb4{
+    text-align: center;
+}
+.col4-1,.col4-2,.col4-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.row4-2{
+    display: flex;
+    justify-content: center;
+}
+.row4-3{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.row4-3 button{
+    padding:10px;
+    width: 150px;
+    border-radius: 19px;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+    color: rgb(75, 156, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row4-3 button:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+}
+.card-body a{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card-body a:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* sect-5 */
+.row5{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.col5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cd5{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cb5{
+    text-align: center;
+}
+
+/* section-6 */
+.col6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.row6-2,.row6-1{
+    display: flex;
+    justify-content: center;
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.h16{
+    font-family: "Kanit", sans-serif;
+}
